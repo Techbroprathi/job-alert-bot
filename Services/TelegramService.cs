@@ -6,20 +6,17 @@ namespace JobAlertBot.Services;
 public class TelegramService
 {
     private readonly TelegramBotClient bot;
+    private readonly long chatId;
 
-    private const string BotToken = "8288945933:AAGBTS3cjF1NhF_U6LgSBbNoY9iywmxI6jc";
-    private const long ChatId = 5649162235;
-
-    public TelegramService()
+    public TelegramService(IConfiguration config)
     {
-        bot = new TelegramBotClient(BotToken);
-    }
+        var token = config["Telegram:BotToken"];
+        chatId = long.Parse(config["Telegram:ChatId"]);
 
+        bot = new TelegramBotClient(token);
+    }
     public async Task SendMessage(string message)
     {
-        await bot.SendMessage(
-            chatId: ChatId,
-            text: message
-        );
+        await bot.SendMessage(chatId, message);
     }
 }
