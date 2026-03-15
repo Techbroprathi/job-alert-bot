@@ -7,8 +7,8 @@ public class TelegramService
 {
     private readonly TelegramBotClient bot;
 
-    private const string BotToken = "8288945933:AAGBTS3cjF1NhF_U6LgSBbNoY9iywmxI6jc";
-    private const long ChatId = 5649162235;
+    private const string BotToken = "Your-BOT-Token";
+    private const long ChatId = 'Your ID';
 
     public TelegramService()
     {
