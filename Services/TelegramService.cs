@@ -17,9 +17,6 @@ public class TelegramService
     }
     public async Task SendMessage(string message)
     {
-        await bot.SendMessage(
-            chatId: ChatId,
-            text: message
-        );
+        await bot.SendMessage(chatId, message);
     }
 }
