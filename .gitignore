@@ -1,0 +1,22 @@
+﻿# Build folders
+bin/
+obj/
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Logs
+*.log
+
+# Runtime data
+seen_jobs.txt
+
+# Visual Studio
+.vs/
+
+# OS files
+Thumbs.db
+.DS_Store
