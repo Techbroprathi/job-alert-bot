@@ -1,4 +1,5 @@
 using JobAlertBot;
+using JobAlertBot.Services;
 
 var builder = Host.CreateApplicationBuilder(args);
 

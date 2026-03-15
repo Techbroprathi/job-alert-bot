@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("JobAlertBot")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3ddff4f833421902c91af0be57dfc600cdd9524c")]
 [assembly: System.Reflection.AssemblyProductAttribute("JobAlertBot")]
 [assembly: System.Reflection.AssemblyTitleAttribute("JobAlertBot")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
